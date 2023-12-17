@@ -5,6 +5,7 @@ import Offers from "./components/Offers";
 import RecentWork from "./components/RecentWork";
 import Clients from "./components/Clients";
 import Stats from "./components/Stats";
+import ClientsSay from "./components/ClientsSay";
 
 const Home: React.FC = () => {
 	return (
@@ -15,6 +16,7 @@ const Home: React.FC = () => {
 			<RecentWork />
 			<Clients />
 			<Stats />
+			<ClientsSay />
 		</>
 	);
 };
