@@ -21,7 +21,7 @@ const Offers: React.FC = () => {
 	return (
 		<>
 			<div className="grid grid-cols-5 p-6 gap-3 bg-primary-50 border border-primary-100 my-6 rounded">
-				<div className="row-span-2 col-span-2 px-7 relative">
+				<div className="row-span-2 col-span-5 lg:col-span-2 px-7 relative">
 					<img
 						src="/offer.svg"
 						className="absolute h-full w-auto bottom-0 left-0 drop-shadow-md"
@@ -40,26 +40,26 @@ const Offers: React.FC = () => {
 						key={index}
 						className={`${
 							index === 0
-								? "row-span-2 col-span-2 flex flex-col justify-evenly px-8 gap-3 py-7"
-								: "col-span-1"
+								? "row-span-2 col-span-5 md:col-span-3 lg:col-span-2 md:flex md:flex-col md:justify-evenly md:px-8 md:gap-3 md:py-7"
+								: "col-span-5 md:col-span-2 lg:col-span-1"
 						} bg-white shadow-lg rounded-md p-4`}
 					>
 						<h4 className={`text-xl font-bold`}>{offer?.title}</h4>
 						<p
 							className={`${
 								index === 0
-									? "text-2xl font-bold"
+									? "text-sm md:text-2xl text-slate-500 md:text-black font-semibold md:font-bold"
 									: "text-slate-500 font-semibold text-sm"
 							}`}
 						>
 							<span
 								className={`text-orange-600  ${
-									index === 0 ? "text-5xl" : "text-lg"
-								}`}
+									index === 0 ? "text-lg md:text-5xl" : "text-lg"
+								} mr-1`}
 							>
 								{offer?.amount}%
 							</span>
-							{index === 0 ? <br /> : " "}
+							{index === 0 ? <br className="hidden md:inline" /> : ""}
 							Discount
 						</p>
 						<p className="text-sm text-slate-700">{offer?.description}</p>
