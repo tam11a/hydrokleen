@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Offers: React.FC = () => {
 	const offers = [
@@ -21,8 +20,12 @@ const Offers: React.FC = () => {
 	];
 	return (
 		<>
-			<div className="grid grid-cols-4 p-6 gap-3">
-				<div className="row-span-2 px-7">
+			<div className="grid grid-cols-5 p-6 gap-3 bg-primary-50 border border-primary-100 my-6 rounded">
+				<div className="row-span-2 col-span-2 px-7 relative">
+					<img
+						src="/offer.svg"
+						className="absolute h-full w-auto bottom-0 left-0 drop-shadow-md"
+					/>
 					<h2 className="text-3xl font-bold  text-end mt-9">
 						Special <br />
 						<span className="text-primary-600">Offers</span>
@@ -37,7 +40,7 @@ const Offers: React.FC = () => {
 						key={index}
 						className={`${
 							index === 0
-								? "row-span-3 flex flex-col justify-evenly px-8 gap-3 py-7"
+								? "row-span-2 col-span-2 flex flex-col justify-evenly px-8 gap-3 py-7"
 								: "col-span-1"
 						} bg-white shadow-lg rounded-md p-4`}
 					>
@@ -51,19 +54,17 @@ const Offers: React.FC = () => {
 						>
 							<span
 								className={`text-orange-600  ${
-									index === 0 ? "text-4xl" : "text-lg"
+									index === 0 ? "text-5xl" : "text-lg"
 								}`}
 							>
 								{offer?.amount}%
-							</span>{" "}
+							</span>
+							{index === 0 ? <br /> : " "}
 							Discount
 						</p>
 						<p className="text-sm text-slate-700">{offer?.description}</p>
 					</div>
 				))}
-				<div className="row-span-2 shadow-lg col-span-2 bg-white rounded-md flex flex-row items-center justify-center font-semibold underline underline-offset-2">
-					<Link to="/offers">See All Offers</Link>
-				</div>
 			</div>
 		</>
 	);
