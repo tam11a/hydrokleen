@@ -13,7 +13,11 @@ const SubService: React.FC<ISubserviceSection> = ({
 			<p className="text-base text-center mb-9 mt-3 max-w-xl mx-auto">
 				{description}
 			</p>
-			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 max-w-7xl mx-auto">
+			<div
+				className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-${
+					services?.length > 3 ? "4" : "3"
+				} gap-7 max-w-7xl mx-auto`}
+			>
 				{services?.map((service: ISubservice) => (
 					<div className="p-4">
 						<img
