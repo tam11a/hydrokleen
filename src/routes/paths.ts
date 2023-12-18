@@ -6,5 +6,6 @@ export const PUBLIC_ROUTES = {
 	PORTFOLIO: "portfolio",
 	ABOUT: "about",
 	OFFERS: "offers",
+	ACServicing: "services/ac-servicing",
 	NOTFOUND: "*",
 };

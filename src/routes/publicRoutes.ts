@@ -31,6 +31,10 @@ export const publicRoutes = [
 		Component: lazy(() => import("@pages/Offers")),
 	},
 	{
+		path: PUBLIC_ROUTES.ACServicing,
+		Component: lazy(() => import("@pages/Services/ACServicing")),
+	},
+	{
 		path: PUBLIC_ROUTES.NOTFOUND,
 		Component: lazy(() => import("@pages/NotFound")),
 	},
