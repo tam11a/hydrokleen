@@ -95,7 +95,11 @@ const subServices: ISubservice[] = [
 	// }
 ];
 export const subserviceSection: ISubserviceSection = {
-	headerTitle: "AC Servicing",
+	headerTitle: (
+		<>
+			AC <span>Servicing</span>
+		</>
+	),
 	description:
 		"We have a large team to service any kind of branded AC with the latest tools under experienced engineers. As we are the best AC servicing company in Bangladesh, we can do servicing based on your expectation.",
 	services: subServices,

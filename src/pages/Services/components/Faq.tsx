@@ -5,8 +5,6 @@ import { RiArrowRightSLine } from "react-icons/ri";
 const Faq: React.FC<{
 	faqs: IFaq[];
 }> = ({ faqs }) => {
-	console.log(faqs);
-
 	const getItems = (panelStyle: CSSProperties) => {
 		return faqs.map((faq: IFaq, index: number) => {
 			return {
@@ -47,7 +45,7 @@ const Faq: React.FC<{
 					</div>
 				)}
 				className="max-w-5xl mx-auto"
-				expandIconPosition="right"
+				expandIconPosition="end"
 				style={{ background: "transparent" }}
 				items={getItems(panelStyle)}
 			/>

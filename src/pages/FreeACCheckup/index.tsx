@@ -50,7 +50,7 @@ const FreeACCheckup: React.FC = () => {
 								className=" bg-orange-500 hover:!bg-orange-700 flex flex-row items-center"
 								icon={<BsFillTelephoneFill />}
 							>
-								Call Now
+								Call
 							</Button>
 						</Link>
 						<Link to="/book-now">
