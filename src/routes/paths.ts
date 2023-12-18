@@ -3,5 +3,6 @@ export const PUBLIC_ROUTES = {
 	FREEACCHECKUP: "free-ac-checkup",
 	BOOKNOW: "book-now",
 	CONTACT: "contact",
+	PORTFOLIO: "portfolio",
 	NOTFOUND: "*",
 };
