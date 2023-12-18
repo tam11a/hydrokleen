@@ -10,7 +10,17 @@ const Faq: React.FC<{
 			return {
 				key: index,
 				label: <b className="text-slate-700 text-lg">{faq.title}</b>,
-				children: <span className="text-slate-700">{faq.description}</span>,
+				children: (
+					<div className="text-slate-700">
+						{faq.description}
+						<br />
+						<ul className="list-outside list-disc text-sm mx-4">
+							{faq.serviceList?.map((summary: string) => (
+								<li>{summary}</li>
+							))}
+						</ul>
+					</div>
+				),
 				style: panelStyle,
 			};
 		});

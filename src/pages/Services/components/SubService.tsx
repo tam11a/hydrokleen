@@ -27,7 +27,7 @@ const SubService: React.FC<ISubserviceSection> = ({
 						<h3 className="text-xl font-semibold text-slate-700 mb-4">
 							{service.title}
 						</h3>
-						<ul className="list-inside list-disc text-sm">
+						<ul className="list-outside list-disc text-sm mx-4">
 							{service.summary?.map((summary: string) => (
 								<li>{summary}</li>
 							))}
