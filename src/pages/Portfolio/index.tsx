@@ -17,7 +17,7 @@ const Portfolio: React.FC = () => {
 					<img
 						key={client}
 						src={`/clients/${client + 1}.png`}
-						className="w-full aspect-square rounded-md shadow-lg object-contain p-2 border hover:scale-105 cursor-pointer transition duration-300"
+						className="w-full bg-white aspect-square rounded-md shadow-lg object-contain p-2 border hover:scale-105 cursor-pointer transition duration-300"
 					/>
 				))}
 			</div>
