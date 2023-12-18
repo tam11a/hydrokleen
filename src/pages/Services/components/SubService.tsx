@@ -19,7 +19,10 @@ const SubService: React.FC<ISubserviceSection> = ({
 				} gap-7 max-w-7xl mx-auto`}
 			>
 				{services?.map((service: ISubservice) => (
-					<div className="p-4">
+					<div
+						className="p-4"
+						key={service.title}
+					>
 						<img
 							src={service.image}
 							className="rounded shadow-md mb-4"
@@ -29,7 +32,7 @@ const SubService: React.FC<ISubserviceSection> = ({
 						</h3>
 						<ul className="list-outside list-disc text-sm mx-4">
 							{service.summary?.map((summary: string) => (
-								<li>{summary}</li>
+								<li key={summary}>{summary}</li>
 							))}
 						</ul>
 					</div>

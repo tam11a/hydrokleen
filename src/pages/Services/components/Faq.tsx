@@ -16,7 +16,7 @@ const Faq: React.FC<{
 						<br />
 						<ul className="list-outside list-disc text-sm mx-4">
 							{faq.serviceList?.map((summary: string) => (
-								<li>{summary}</li>
+								<li key={summary}>{summary}</li>
 							))}
 						</ul>
 					</div>

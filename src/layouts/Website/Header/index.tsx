@@ -9,11 +9,11 @@ import { Button, Divider, Menu } from "antd";
 
 const menu = [
 	{
-		label: "Home",
+		label: <b className="text-slate-700">Home</b>,
 		key: "/",
 	},
 	{
-		label: "Services",
+		label: <b className="text-slate-700">Services</b>,
 		key: "/services",
 		children: [
 			{
@@ -35,23 +35,23 @@ const menu = [
 		],
 	},
 	{
-		label: "Offer",
+		label: <b className="text-slate-700">Offers</b>,
 		key: "/offers",
 	},
 	{
-		label: "Blogs",
+		label: <b className="text-slate-700">Blogs</b>,
 		key: "/blogs",
 	},
 	{
-		label: "Portfolio",
+		label: <b className="text-slate-700">Portfolio</b>,
 		key: "/portfolio",
 	},
 	{
-		label: "About",
+		label: <b className="text-slate-700">About</b>,
 		key: "/about",
 	},
 	{
-		label: "Contact",
+		label: <b className="text-slate-700">Contact</b>,
 		key: "/contact",
 	},
 ];
@@ -59,6 +59,7 @@ const menu = [
 const WebsiteHeader: React.FC = () => {
 	const [open, setOpen] = React.useState<boolean>(false);
 	const navigate = useNavigate();
+
 	return (
 		<>
 			<AppBar

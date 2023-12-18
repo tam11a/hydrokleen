@@ -9,10 +9,10 @@ const Blogs: React.FC = () => {
 			<h2 className="text-4xl text-slate-700 font-bold text-center mt-9">
 				Our <span className="text-primary-600">Blogs</span>
 			</h2>
-			<p className="text-base font-semibold text-slate-600 text-center mb-9 mt-3 max-w-lg mx-auto">
+			<p className="text-lg font-semibold text-slate-600 text-center mb-9 mt-3 max-w-lg mx-auto">
 				We are always trying to share our knowledge with you.
 			</p>
-			<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 max-w-4xl gap-7 mx-auto">
+			<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 max-w-4xl gap-4 mx-auto">
 				{blogs.map((blog) => {
 					const description = xss(blog.description, {
 						whiteList: {}, // empty, means filter out all tags
@@ -24,14 +24,17 @@ const Blogs: React.FC = () => {
 						<Link
 							to={`/blogs/${blog.id}`}
 							key={blog.id}
+							className="border p-2 rounded-md bg-white hover:border-primary-600 hover:shadow-md transition-all duration-300"
 						>
 							<img
 								src={blog.thumbnail}
 								alt={blog.title}
 								className="rounded border border-slate-300 mb-2"
 							/>
-							<h3 className="font-bold text-slate-700 mb-2">{blog.title}</h3>
-							<p className="text-sm ">
+							<h3 className="font-bold text-slate-700 mb-2 px-2 pt-1">
+								{blog.title}
+							</h3>
+							<p className="text-sm px-2 mb-2">
 								{description?.slice(0, 100)}
 								{description?.length > 100 && (
 									<>

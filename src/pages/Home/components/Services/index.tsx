@@ -42,7 +42,10 @@ const Services: React.FC = () => {
 			<div className="grid grid-cols-5 rounded-md">
 				<div className="col-span-5 lg:col-span-3 grid grid-cols-1 md:grid-cols-2 gap-5 p-5">
 					{services.map((service) => (
-						<div className="bg-white rounded-md shadow-lg p-5 border-b-white hover:scale-[102%] cursor-pointer border-b-2 hover:border-b-orange-600 hover:rounded-b-none transition duration-100 ">
+						<div
+							className="bg-white rounded-md shadow-lg p-5 border-b-white hover:scale-[102%] cursor-pointer border-b-2 hover:border-b-orange-600 hover:rounded-b-none transition duration-100 "
+							key={service.title}
+						>
 							<div className="w-fit text-3xl p-2 rounded-md bg-primary-50 text-primary-800 border border-primary-200">
 								{service.icon}
 							</div>

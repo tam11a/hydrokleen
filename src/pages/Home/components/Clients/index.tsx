@@ -12,7 +12,7 @@ const Clients: React.FC = () => {
 			<h2 className="text-4xl text-slate-700 font-bold  text-center mt-28">
 				Our Clients in <span className="text-primary-600">Bangladesh</span>
 			</h2>
-			<p className="text-base text-center mb-9 mt-3 max-w-lg mx-auto">
+			<p className="text-lg font-semibold text-slate-600 text-center mb-9 mt-3 max-w-2xl mx-auto">
 				We have already completed 2K+ corporate projects. Our clients are
 				Hospitals, Group of companies, Markets, Bank, Multinational
 				Organisation, University, Government project, Tender Work, and so on.
@@ -30,7 +30,7 @@ const Clients: React.FC = () => {
 				slidesPerView={"auto"}
 				modules={[Autoplay, Pagination]}
 				spaceBetween={10}
-				className="[&>div.swiper-wrapper]:mb-10 [&>.swiper-pagination>.swiper-pagination-bullet-active]:bg-primary"
+				className="[&>div.swiper-wrapper]:mb-20 mt-14 [&>.swiper-pagination>.swiper-pagination-bullet-active]:bg-primary"
 			>
 				{[...Array(38).keys()].map((client) => (
 					<SwiperSlide

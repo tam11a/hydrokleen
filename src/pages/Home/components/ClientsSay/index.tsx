@@ -43,7 +43,7 @@ const ClientsSay: React.FC = () => {
 					<br />
 					<span className="text-primary-600">Clients Say</span>
 				</h2>
-				<p className="text-sm font-semibold text-slate-600 text-center md:text-end mb-5 mt-3">
+				<p className="text-lg font-semibold text-slate-600 text-center md:text-end mb-5 mt-3">
 					Valuable Feedbacks from Our Clients
 				</p>
 				<Swiper

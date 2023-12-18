@@ -6,7 +6,7 @@ const Portfolio: React.FC = () => {
 			<h2 className="text-4xl text-slate-700 font-bold  text-center mt-9">
 				Our <span className="text-primary-600">Clients</span>
 			</h2>
-			<p className="text-base font-semibold text-slate-600 text-center mb-9 mt-3 max-w-xl mx-auto">
+			<p className="text-lg font-semibold text-slate-600 text-center mb-9 mt-3 max-w-xl mx-auto">
 				We have already completed 2K+ corporate projects. Our clients are
 				Hospitals, Group of companies, Markets, Bank, Multinational
 				Organisation, University, Government project, Tender Work, and so on.
