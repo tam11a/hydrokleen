@@ -164,9 +164,34 @@ const WebsiteHeader: React.FC = () => {
 									}}
 									selectedKeys={[]}
 									mode="inline"
-									className="border-0"
+									className="border-0 h-fit"
 									items={menu}
 								/>
+								<Link
+									to="/free-ac-checkup"
+									className="mx-5 my-1"
+								>
+									<Button
+										type="primary"
+										size="large"
+										className="flex bg-orange-500 hover:!bg-orange-700 w-full justify-center"
+									>
+										Free AC Checkup
+									</Button>
+								</Link>
+								<Link
+									to="/book-now"
+									className="mx-5 my-1"
+								>
+									<Button
+										type="primary"
+										size="large"
+										className="flex bg-primary hover:!bg-primary-700 items-center justify-center w-full"
+										icon={<FaCircleArrowRight className="ml-4" />}
+									>
+										Book Now
+									</Button>
+								</Link>
 							</Drawer>
 						</div>
 					</div>
