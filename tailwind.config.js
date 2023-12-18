@@ -21,8 +21,8 @@ export default {
 				},
 			},
 			fontFamily: {
-				sans: ["Lexend", "sans-serif"],
-				serif: ["Lexend", "serif"],
+				sans: ["Lexend", "Noto Sans Bengali", "sans-serif"],
+				serif: ["Lexend", "Noto Sans Bengali", "serif"],
 			},
 		},
 	},

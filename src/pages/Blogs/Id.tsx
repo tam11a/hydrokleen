@@ -18,7 +18,7 @@ const BlogById: React.FC = () => {
 	const relateds = getRelatedBlogs(parseInt(id || "", 10));
 
 	return (
-		<div className="max-w-xl mx-auto">
+		<div className="max-w-2xl mx-auto">
 			<img
 				src={blog.thumbnail}
 				alt={blog.title}

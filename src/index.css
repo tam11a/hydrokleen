@@ -1,11 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+Bengali:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
-	font-family: "Lexend", sans-serif;
+	font-family: "Lexend", "Noto Sans Bengali", sans-serif;
+}
+
+.blog-header {
+	@apply text-lg md:text-xl font-bold pt-8 pb-3;
+}
+.blog-list {
+	@apply list-inside list-disc ml-5;
 }
 
 /* Customized: Scrollbar */
