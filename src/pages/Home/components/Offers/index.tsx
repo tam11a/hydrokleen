@@ -20,17 +20,17 @@ const Offers: React.FC = () => {
 	];
 	return (
 		<>
-			<div className="grid grid-cols-5 p-6 gap-3 bg-primary-50 border border-primary-100 my-6 rounded">
+			<div className="grid grid-cols-5 p-6 gap-3 bg-primary-50 border border-primary-100 my-6  mt-28 rounded">
 				<div className="row-span-2 col-span-5 lg:col-span-2 px-7 relative">
 					<img
 						src="/offer.svg"
 						className="absolute h-full w-auto bottom-0 left-0 drop-shadow-md"
 					/>
-					<h2 className="text-3xl font-bold  text-end mt-9">
+					<h2 className="text-4xl font-bold  text-end mt-9 text-slate-700">
 						Special <br />
 						<span className="text-primary-600">Offers</span>
 					</h2>
-					<p className="text-sm font-semibold text-slate-600 text-end mb-9 mt-3">
+					<p className="text-lg font-semibold text-slate-600 text-end mb-9 mt-3">
 						Our best offers for you
 					</p>
 				</div>

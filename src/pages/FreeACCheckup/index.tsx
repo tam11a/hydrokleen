@@ -7,14 +7,14 @@ import { Link } from "react-router-dom";
 const FreeACCheckup: React.FC = () => {
 	return (
 		<>
-			<h2 className="text-3xl font-bold text-center mt-9">
+			<h2 className="text-4xl text-slate-700 font-bold text-center mt-9">
 				AC <span className="text-primary-600">Check-up</span>
 			</h2>
-			<p className="text-sm font-semibold text-slate-600 text-center mb-9 mt-3 max-w-md mx-auto">
+			<p className="text-base font-semibold text-slate-600 text-center mb-9 mt-3 max-w-lg mx-auto">
 				AC Check-Up is an important part of making sure you get long-lasting,
 				and efficient performance from your Air Conditioner.
 			</p>
-			<div className="grid grid-cols-7 max-w-5xl mx-auto gap-5">
+			<div className="grid grid-cols-7 max-w-5xl mx-auto gap-9">
 				<div className="col-span-7 md:col-span-3">
 					<img
 						src="/ac-checkup/1.jpg"
@@ -22,8 +22,10 @@ const FreeACCheckup: React.FC = () => {
 					/>
 				</div>
 				<div className="col-span-7 md:col-span-4">
-					<p className="text-2xl font-bold mb-4 mt-4">Service Booking:</p>
-					<ul className="[&>li>span]:text-primary-600 [&>li>span]:font-semibold [&>li>span]:text-lg [&>li]:pb-6 text-sm">
+					<p className="text-3xl text-slate-700 font-bold mb-4 mt-4">
+						Service Booking:
+					</p>
+					<ul className="[&>li>span]:text-primary-600 [&>li>span]:font-semibold [&>li>span]:text-lg [&>li]:pb-6 mt-9 text-base">
 						<li>
 							<span>Free AC Check-Up Service:</span> <br /> You can enjoy Free
 							AC Check-Up Service from us if you take any kind of HydroKleen AC
@@ -64,15 +66,15 @@ const FreeACCheckup: React.FC = () => {
 					</div>
 				</div>
 			</div>
-			<h2 className="text-3xl font-bold text-center mt-9">
+			<h2 className="text-4xl text-slate-700 font-bold text-center mt-16">
 				How it <span className="text-primary-600">Works</span>
 			</h2>
-			<p className="text-sm font-semibold text-slate-600 text-center mb-9 mt-3 max-w-md mx-auto">
+			<p className="text-base font-semibold text-slate-600 text-center mb-9 mt-3 max-w-lg mx-auto">
 				Air Conditioner Check-Up is such an essential service that offers the
 				diagnosis of your Air Conditioner by an expert technician who performs
 				initial tests for problem identification.
 			</p>
-			<ul className="max-w-3xl mx-auto list-disc [&>li>span]:text-primary-600 [&>li>span]:font-semibold [&>li]:pb-6 text-sm">
+			<ul className="max-w-4xl mx-auto list-disc [&>li>span]:text-primary-600 [&>li>span]:font-semibold [&>li]:pb-6 px-5 text-base">
 				<li>
 					<span>Check for proper refrigerant levels. </span> Low levels indicate
 					a leak that needs to be found and repaired immediately. Low

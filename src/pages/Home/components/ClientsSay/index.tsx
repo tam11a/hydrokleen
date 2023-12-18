@@ -38,7 +38,7 @@ const ClientsSay: React.FC = () => {
 	return (
 		<div className="grid grid-cols-7 gap-2">
 			<div className="col-span-7 md:col-span-4">
-				<h2 className="text-3xl font-bold text-center md:text-end mt-4">
+				<h2 className="text-4xl font-bold text-center text-slate-700 md:text-end mt-4">
 					What Our
 					<br />
 					<span className="text-primary-600">Clients Say</span>
@@ -69,7 +69,7 @@ const ClientsSay: React.FC = () => {
 					{feedbacks.map((feedback, index) => (
 						<SwiperSlide key={index}>
 							<div className="flex flex-col items-center md:items-end p-3 justify-center">
-								<p className="text-sm font-semibold text-center md:text-right text-slate-600 max-w-lg">
+								<p className="text-base font-semibold text-center md:text-right text-slate-600 max-w-lg">
 									" {feedback.feedback} "
 								</p>
 								<div className="flex flex-col-reverse md:flex-row gap-2 mt-3 items-center justify-start">

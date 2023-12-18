@@ -3,10 +3,10 @@ import React from "react";
 const Portfolio: React.FC = () => {
 	return (
 		<div>
-			<h2 className="text-3xl font-bold  text-center mt-9">
+			<h2 className="text-4xl text-slate-700 font-bold  text-center mt-9">
 				Our <span className="text-primary-600">Clients</span>
 			</h2>
-			<p className="text-sm font-semibold text-slate-600 text-center mb-9 mt-3 max-w-lg mx-auto">
+			<p className="text-base font-semibold text-slate-600 text-center mb-9 mt-3 max-w-xl mx-auto">
 				We have already completed 2K+ corporate projects. Our clients are
 				Hospitals, Group of companies, Markets, Bank, Multinational
 				Organisation, University, Government project, Tender Work, and so on.
@@ -21,7 +21,7 @@ const Portfolio: React.FC = () => {
 					/>
 				))}
 			</div>
-			<h2 className="text-3xl font-bold  text-center mt-20">
+			<h2 className="text-4xl text-slate-700 font-bold text-center my-20">
 				Working <span className="text-primary-600">Portfolio</span>
 			</h2>
 			<div className="grid grid-cols-1 md:grid-cols-3 max-w-7xl my-8 mx-auto gap-3">

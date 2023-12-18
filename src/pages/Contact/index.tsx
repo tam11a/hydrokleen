@@ -8,9 +8,9 @@ import { Link } from "react-router-dom";
 const Contact: React.FC = () => {
 	return (
 		<div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center lg:items-start justify-between gap-6 lg:gap-9 mt-9">
-			<h1 className="text-6xl font-bold text-center md:text-left text-slate-700">
-				<span className="text-primary">Contact</span> <br /> HydroKleen <br />{" "}
-				Bangladesh
+			<h1 className="text-5xl font-bold text-center md:text-left text-slate-700">
+				<span className="text-6xl text-primary">Contact</span> <br /> HydroKleen{" "}
+				<br /> Bangladesh
 			</h1>
 			<div className="[&>p]:my-3 [&>p>span]:font-bold [&>p>span]:text-primary text-center md:text-start">
 				<p>

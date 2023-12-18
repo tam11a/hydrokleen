@@ -33,13 +33,13 @@ const Services: React.FC = () => {
 
 	return (
 		<>
-			<h2 className="text-3xl font-bold  text-center mt-9">
+			<h2 className="text-4xl font-bold text-slate-700 text-center mt-20">
 				Our <span className="text-primary-600">Services</span>
 			</h2>
-			<p className="text-sm font-semibold text-slate-600 text-center mb-9 mt-3">
+			<p className="text-lg font-semibold text-slate-600 text-center mb-9 mt-3">
 				We provide the following services
 			</p>
-			<div className="grid grid-cols-5 bg-slate-200 rounded-md">
+			<div className="grid grid-cols-5 rounded-md">
 				<div className="col-span-5 lg:col-span-3 grid grid-cols-1 md:grid-cols-2 gap-5 p-5">
 					{services.map((service) => (
 						<div className="bg-white rounded-md shadow-lg p-5 border-b-white hover:scale-[102%] cursor-pointer border-b-2 hover:border-b-orange-600 hover:rounded-b-none transition duration-100 ">

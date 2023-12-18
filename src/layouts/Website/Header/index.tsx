@@ -61,7 +61,10 @@ const WebsiteHeader: React.FC = () => {
 	const navigate = useNavigate();
 	return (
 		<>
-			<AppBar className="">
+			<AppBar
+				className="shadow-xl"
+				elevation={0}
+			>
 				<Toolbar className="bg-primary !min-h-[0] py-1 !hidden md:!flex justify-center">
 					<div className="max-w-7xl flex flex-row items-center w-full justify-between gap-3">
 						<div className="flex flex-row gap-3">

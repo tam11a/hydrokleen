@@ -8,7 +8,7 @@ const WebsiteLayout: React.FC = () => {
 	return (
 		<>
 			<WebsiteHeader />
-			<main className="bg-slate-100 min-h-[80vh] py-5 px-3 max-w-[95vw] mx-auto">
+			<main className="bg-slate-100 min-h-[80vh] pt-5 pb-20 px-3 max-w-[95vw] mx-auto">
 				<Outlet />
 			</main>
 			<WebsiteFooter />

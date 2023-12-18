@@ -25,18 +25,20 @@ const Stats: React.FC = () => {
 		},
 	];
 	return (
-		<div className="bg-primary-50 border border-primary-100 my-6 rounded p-6">
+		<div className="bg-primary-50 border border-primary-100 my-20 rounded p-6 ">
 			<div className="mx-auto grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-4xl">
 				{stats.map((stat, index) => (
 					<div
 						key={index}
 						className="p-4 flex flex-col items-center justify-center"
 					>
-						<p className="text-5xl text-primary-700 font-bold text-center">
+						<p className="text-7xl text-primary-700 font-semibold text-center">
 							<CountUp end={stat.count} />
-							<span className="text-3xl ml-1">{stat.prefix}</span>
+							<span className="text-5xl ml-1">{stat.prefix}</span>
 						</p>
-						<h4 className="text-center text-sm font-bold">{stat.title}</h4>
+						<h4 className="text-center text-base text-slate-700 font-bold">
+							{stat.title}
+						</h4>
 					</div>
 				))}
 			</div>
