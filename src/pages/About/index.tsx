@@ -104,8 +104,8 @@ const About: React.FC = () => {
 						<div className="w-fit text-3xl p-2 rounded-md bg-primary-50 text-primary-800 border border-primary-200">
 							{mission.icon}
 						</div>
-						<h3 className="text-lg font-bold my-3">{mission.title}</h3>
-						<p className="text-sm">{mission.description}</p>
+						<h3 className="text-lg font-bold mt-3 mb-2">{mission.title}</h3>
+						<p className="text-base">{mission.description}</p>
 					</div>
 				))}
 			</div>
@@ -113,7 +113,7 @@ const About: React.FC = () => {
 				Key <span className="text-primary-600">Achievements</span>
 			</h2>
 			<div className="grid grid-cols-7 max-w-7xl mx-auto mt-12 gap-9">
-				<div className="col-span-7 lg:col-span-2 rounded-md lg:rounded-full border border-primary-100  bg-primary-50 p-10 flex flex-row lg:flex-col items-center justify-center lg:max-w-[280px] gap-7">
+				<div className="col-span-7 lg:col-span-2 rounded-md lg:rounded-full border border-primary-100  bg-primary-50 p-10 flex flex-row lg:flex-col items-center justify-center lg:max-w-[280px] gap-20">
 					<img
 						src="/about/3.png"
 						className="w-[90%] h-auto max-w-[140px] lg:max-w-[200px]"

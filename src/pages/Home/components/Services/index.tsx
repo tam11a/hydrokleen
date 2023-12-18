@@ -49,8 +49,8 @@ const Services: React.FC = () => {
 							<div className="w-fit text-3xl p-2 rounded-md bg-primary-50 text-primary-800 border border-primary-200">
 								{service.icon}
 							</div>
-							<h3 className="text-lg font-bold my-3">{service.title}</h3>
-							<p className="text-sm">{service.description}</p>
+							<h3 className="text-lg font-bold mt-3 mb-2">{service.title}</h3>
+							<p className="text-base">{service.description}</p>
 						</div>
 					))}
 				</div>
