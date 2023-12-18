@@ -41,7 +41,7 @@ const FreeACCheckup: React.FC = () => {
 						</li>
 					</ul>
 					<div className="flex flex-col sm:flex-row items-start sm:items-center gap-2">
-						<Link to="/free-ac-checkup">
+						<Link to="tel:+8801902464646">
 							<Button
 								type="primary"
 								size="large"
