@@ -1,10 +1,11 @@
 import React from "react";
 import useBlogs from "@/hooks/useBlogs";
 import { Link, useParams } from "react-router-dom";
-import NoBlog from "./NoBlog";
 import { Avatar } from "@mui/material";
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
+import { Divider } from "antd";
+import NotFound from "@pages/NotFound";
 
 const BlogById: React.FC = () => {
 	const { id } = useParams<{ id: string }>();
@@ -13,7 +14,7 @@ const BlogById: React.FC = () => {
 
 	const blog = getBlogById(parseInt(id || "", 10));
 
-	if (!blog) return <NoBlog />;
+	if (!blog) return <NotFound />;
 
 	const relateds = getRelatedBlogs(parseInt(id || "", 10));
 
@@ -43,10 +44,11 @@ const BlogById: React.FC = () => {
 					children={blog?.description || ""}
 				/>
 			</div>
-			<p className="text-2xl font-semibold text-primary-700 mt-20">
+			<p className="text-2xl font-semibold text-primary-700 mt-12">
 				Related Posts{" "}
 				<span className="text-slate-700">({relateds?.length || 0})</span>
 			</p>
+			<Divider />
 			<ul>
 				{relateds?.map((r_blog) => (
 					<li
