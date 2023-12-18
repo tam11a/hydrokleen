@@ -51,14 +51,16 @@ const FreeACCheckup: React.FC = () => {
 								Call Now
 							</Button>
 						</Link>
-						<Button
-							type="primary"
-							size="large"
-							className="flex bg-primary hover:!bg-primary-700 flex-row-reverse items-center"
-							icon={<FaCircleArrowRight className="ml-3 text-xl" />}
-						>
-							Book Now
-						</Button>
+						<Link to="/book-now">
+							<Button
+								type="primary"
+								size="large"
+								className="flex bg-primary hover:!bg-primary-700 flex-row-reverse items-center"
+								icon={<FaCircleArrowRight className="ml-3 text-xl" />}
+							>
+								Book Now
+							</Button>
+						</Link>
 					</div>
 				</div>
 			</div>

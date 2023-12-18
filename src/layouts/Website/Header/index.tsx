@@ -125,14 +125,16 @@ const WebsiteHeader: React.FC = () => {
 								Free AC Checkup
 							</Button>
 						</Link>
-						<Button
-							type="primary"
-							size="large"
-							className="hidden md:flex bg-primary hover:!bg-primary-700 flex-row-reverse items-center"
-							icon={<FaCircleArrowRight className="ml-4" />}
-						>
-							Book Now
-						</Button>
+						<Link to="/book-now">
+							<Button
+								type="primary"
+								size="large"
+								className="hidden md:flex bg-primary hover:!bg-primary-700 flex-row-reverse items-center"
+								icon={<FaCircleArrowRight className="ml-4" />}
+							>
+								Book Now
+							</Button>
+						</Link>
 						<div className="flex-1 md:hidden" />
 						<div className="inline-flex md:hidden">
 							<IconButton onClick={() => setOpen((o) => !o)}>
