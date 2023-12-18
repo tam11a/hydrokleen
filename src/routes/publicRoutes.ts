@@ -23,6 +23,10 @@ export const publicRoutes = [
 		Component: lazy(() => import("@pages/Portfolio")),
 	},
 	{
+		path: PUBLIC_ROUTES.ABOUT,
+		Component: lazy(() => import("@pages/About")),
+	},
+	{
 		path: PUBLIC_ROUTES.NOTFOUND,
 		Component: lazy(() => import("@pages/NotFound")),
 	},

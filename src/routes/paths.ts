@@ -4,5 +4,6 @@ export const PUBLIC_ROUTES = {
 	BOOKNOW: "book-now",
 	CONTACT: "contact",
 	PORTFOLIO: "portfolio",
+	ABOUT: "about",
 	NOTFOUND: "*",
 };
