@@ -10,5 +10,7 @@ export const PUBLIC_ROUTES = {
 	ACRepair: "services/ac-repairing-maintenance",
 	ACInstallation: "services/ac-installation-shifting",
 	ACSupply: "services/ac-supply",
+	BLOGS: "blogs",
+	BLOG: "blogs/:id",
 	NOTFOUND: "*",
 };
