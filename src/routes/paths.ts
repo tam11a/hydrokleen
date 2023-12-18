@@ -5,5 +5,6 @@ export const PUBLIC_ROUTES = {
 	CONTACT: "contact",
 	PORTFOLIO: "portfolio",
 	ABOUT: "about",
+	OFFERS: "offers",
 	NOTFOUND: "*",
 };

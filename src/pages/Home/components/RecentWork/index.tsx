@@ -11,7 +11,7 @@ const RecentWork: React.FC = () => {
 					<p className="text-lg font-semibold text-slate-600 text-center mb-4 mt-1 lg:text-right">
 						Explore Our Recent Works
 					</p>
-					<p className="max-w-2xl [&>span]:text-primary-600 text-base text-slate-600 [&>span]:font-semibold my-3 text-center lg:text-right mx-auto lg:ml-auto">
+					<p className="max-w-2xl [&>span]:text-primary-600 text-base text-slate-600 [&>span]:font-semibold my-3 text-center lg:text-right mx-auto  lg:mr-0">
 						<span>Hydrokleen Bangladesh</span> is a leading AC Servicing, AC
 						Repairing & Maintenance, AC Installation & Shifting, and AC Supply
 						company in Bangladesh. We have already completed{" "}
