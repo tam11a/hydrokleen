@@ -25,7 +25,7 @@ const BookNow: React.FC = () => {
 				<div className="mt-7 flex flex-col md:flex-row items-center justify-between gap-4">
 					<Link
 						to="tel:+8801902464646"
-						className="font-bold text-slate-700"
+						className="text-lg font-bold text-slate-700"
 					>
 						<span className="text-2xl text-primary">CALL US</span> <br />{" "}
 						01902-464646

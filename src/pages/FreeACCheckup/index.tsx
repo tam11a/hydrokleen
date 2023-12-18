@@ -42,22 +42,28 @@ const FreeACCheckup: React.FC = () => {
 							page or Call 01902464646 for details.
 						</li>
 					</ul>
-					<div className="flex flex-col sm:flex-row items-start sm:items-center gap-2">
-						<Link to="tel:+8801902464646">
+					<div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 max-w-md">
+						<Link
+							to="tel:+8801902464646"
+							className="flex-1"
+						>
 							<Button
 								type="primary"
 								size="large"
-								className=" bg-orange-500 hover:!bg-orange-700 flex flex-row items-center"
+								className=" bg-orange-500 justify-center hover:!bg-orange-700 flex flex-row items-center w-full"
 								icon={<BsFillTelephoneFill />}
 							>
-								Call
+								Call: 01902-464646
 							</Button>
 						</Link>
-						<Link to="/book-now">
+						<Link
+							to="/book-now"
+							className="flex-1"
+						>
 							<Button
 								type="primary"
 								size="large"
-								className="flex bg-primary hover:!bg-primary-700 flex-row-reverse items-center"
+								className="flex justify-center bg-primary hover:!bg-primary-700 flex-row-reverse items-center w-full"
 								icon={<FaCircleArrowRight className="ml-3 text-xl" />}
 							>
 								Book Now

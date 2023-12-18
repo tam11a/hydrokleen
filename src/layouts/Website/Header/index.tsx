@@ -17,19 +17,19 @@ const menu = [
 		key: "/services",
 		children: [
 			{
-				label: "AC Servicing",
+				label: <b className="text-slate-700">AC Servicing</b>,
 				key: "/services/ac-servicing",
 			},
 			{
-				label: "AC Repairing & Maintenance",
+				label: <b className="text-slate-700">AC Repairing & Maintenance</b>,
 				key: "/services/ac-repairing-maintenance",
 			},
 			{
-				label: "AC Installation & Shifting",
+				label: <b className="text-slate-700">AC Installation & Shifting</b>,
 				key: "/services/ac-installation-shifting",
 			},
 			{
-				label: "AC Supply",
+				label: <b className="text-slate-700">AC Supply</b>,
 				key: "/services/ac-supply",
 			},
 		],
