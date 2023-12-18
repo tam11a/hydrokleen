@@ -62,6 +62,14 @@ const FreeACCheckup: React.FC = () => {
 					</div>
 				</div>
 			</div>
+			<h2 className="text-3xl font-bold text-center mt-9">
+				How it <span className="text-primary-600">Works</span>
+			</h2>
+			<p className="text-sm font-semibold text-slate-600 text-center mb-9 mt-3 max-w-md mx-auto">
+				Air Conditioner Check-Up is such an essential service that offers the
+				diagnosis of your Air Conditioner by an expert technician who performs
+				initial tests for problem identification.
+			</p>
 		</>
 	);
 };
