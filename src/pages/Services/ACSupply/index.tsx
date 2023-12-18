@@ -1,15 +1,15 @@
 import React from "react";
 import Banner from "../components/Banner";
-import Faq from "../components/Faq";
-import { faqs, subserviceSection } from "@/utilities/data/acServicingData";
 import SubService from "../components/SubService";
+import { faqs, subserviceSection } from "@/utilities/data/acSupplyData";
 import BookOrCall from "../components/BookOrCall";
+import Faq from "../components/Faq";
 
-// 1
-const ACServicing: React.FC = () => {
+// 4
+const ACSupply: React.FC = () => {
 	return (
 		<>
-			<Banner images={["/services/1/banner.jpg"]} />
+			<Banner images={["/services/4/banner.jpg"]} />
 			<SubService {...subserviceSection} />
 			<BookOrCall />
 			<Faq faqs={faqs} />
@@ -17,4 +17,4 @@ const ACServicing: React.FC = () => {
 	);
 };
 
-export default ACServicing;
+export default ACSupply;

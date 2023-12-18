@@ -7,7 +7,7 @@ const SubService: React.FC<ISubserviceSection> = ({
 }) => {
 	return (
 		<>
-			<h2 className="text-4xl text-slate-700 font-bold text-center mt-9 [&>span]:text-primary-600">
+			<h2 className="text-4xl text-slate-700 font-bold text-center mt-9 [&>span]:text-primary-600 mb-9">
 				{headerTitle}
 			</h2>
 			<p className="text-base text-center mb-9 mt-3 max-w-xl mx-auto">
