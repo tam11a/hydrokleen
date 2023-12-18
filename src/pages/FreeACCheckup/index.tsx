@@ -70,6 +70,40 @@ const FreeACCheckup: React.FC = () => {
 				diagnosis of your Air Conditioner by an expert technician who performs
 				initial tests for problem identification.
 			</p>
+			<ul className="max-w-3xl mx-auto list-disc [&>li>span]:text-primary-600 [&>li>span]:font-semibold [&>li]:pb-6 text-sm">
+				<li>
+					<span>Check for proper refrigerant levels. </span> Low levels indicate
+					a leak that needs to be found and repaired immediately. Low
+					refrigerant levels can burn out your compressor, resulting in the most
+					costly repair when it comes to A/C, period.
+				</li>
+				<li>
+					<span>Check all electrical components and controls</span> to make sure
+					they're working properly.
+				</li>
+				<li>
+					<span>Clean evaporator and condenser coils.</span> Dirty evaporators
+					and coils reduce the energy efficiency and cooling ability of your
+					unit.
+				</li>
+				<li>
+					<span>Oil motors</span> as needed.
+				</li>
+				<li>
+					<span>Calibrate thermostat </span> to make sure your A/C isn't working
+					overtime.
+				</li>
+				<li>
+					<span>Check the condenser</span> for any possible problems.
+				</li>
+				<li>
+					<span>Check, clean, and/or replace filters. </span> An annual air
+					conditioner check up is the easiest way to keep your air conditioner
+					in top condition for years to come. To ensure you'll get worry free,
+					and money saving, performance from your A/C, schedule a regular
+					maintenance call today.
+				</li>
+			</ul>
 		</>
 	);
 };
