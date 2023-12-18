@@ -7,6 +7,10 @@ export const publicRoutes = [
 		Component: lazy(() => import("@pages/Home")),
 	},
 	{
+		path: PUBLIC_ROUTES.FREEACCHECKUP,
+		Component: lazy(() => import("@pages/FreeACCheckup")),
+	},
+	{
 		path: PUBLIC_ROUTES.NOTFOUND,
 		Component: lazy(() => import("@pages/NotFound")),
 	},

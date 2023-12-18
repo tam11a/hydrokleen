@@ -116,13 +116,15 @@ const WebsiteHeader: React.FC = () => {
 							className="hidden md:flex flex-1 border-0 min-w-[40px]"
 							items={menu}
 						/>
-						<Button
-							type="primary"
-							size="large"
-							className="hidden md:flex bg-orange-500 hover:!bg-orange-700"
-						>
-							Free AC Checkup
-						</Button>
+						<Link to="/free-ac-checkup">
+							<Button
+								type="primary"
+								size="large"
+								className="hidden md:flex bg-orange-500 hover:!bg-orange-700"
+							>
+								Free AC Checkup
+							</Button>
+						</Link>
 						<Button
 							type="primary"
 							size="large"

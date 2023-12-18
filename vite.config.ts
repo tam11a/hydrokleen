@@ -5,7 +5,7 @@ import tsconfigPaths from "vite-plugin-tsconfig-paths";
 // https://vitejs.dev/config/
 export default defineConfig({
 	optimizeDeps: {
-		include: ["antd", "lodash", "moment"],
+		include: ["antd"],
 	},
 	server: {
 		port: 3000,
